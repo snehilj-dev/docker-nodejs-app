@@ -1,0 +1,15 @@
+#! kustomization.yaml
+# Generated code, do not edit
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+    - 0-docker-nodejs-sample-namespace.yaml
+    - db-db-data-persistentVolumeClaim.yaml
+    - db-deployment.yaml
+    - db-expose.yaml
+    - db-password-secret.yaml
+    - default-network-policy.yaml
+    - server-C:\Users\DELL\documents\docker\newProject\docker-nodejs-sample\src-persistentVolumeClaim.yaml
+    - server-deployment.yaml
+    - server-expose.yaml
+    - server-service.yaml

@@ -1,0 +1,9 @@
+#! server-C:\Users\DELL\documents\docker\newProject\docker-nodejs-sample\src-persistentVolumeClaim.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+    name: server-c--users-dell-documents-docker-newproject-docker-nodejs-sample-src
+    namespace: docker-nodejs-sample
+spec:
+    storageClassName: "hostpath" # see docker/desktop-storage-provisioner
